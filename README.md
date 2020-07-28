@@ -152,6 +152,10 @@ Para poder ver el saldo eth de una direccion se hace de la siguiente manera:
 ```
 En donde dice address alli va la direccion de ethereum , el te regresara la cantidad de saldo en eth.
 
+Importante, indicar la token address de la token a verificar:
+```js
+    erc20.tokenAddr = '0x48a57FDF37EAD873F472Bb257508Ea38989FcA57';
+```
 
 Para poder ver el saldo de tokens de una direccion se hace de la siguiente manera:
 ```js
